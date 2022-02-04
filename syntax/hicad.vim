@@ -8,8 +8,8 @@ syntax keyword hicadStructure  START END
 " For everything that takes an Input
 syntax keyword hicadInput ANTWORT DISTANZ STRING INTEGER POINT REAL WINKEL VAR
 
-" For calling a Submakro
-syntax keyword hicadImports  CALL MAKRO 
+" For calling a Submakro or a external function
+syntax keyword hicadImports  CALL MAKRO FUNC
 
 " Number matching
 syntax match hicadNumber "\v<\d+>"
